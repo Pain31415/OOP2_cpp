@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{1352e964-460f-4754-8a76-9e8f4d93e1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity">
+      <UniqueIdentifier>{ccdd1d8c-2704-4b36-a159-5c900a09d487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity\Book">
+      <UniqueIdentifier>{89cedade-e314-482e-b7fd-e244f55e5c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity\Bookstore">
+      <UniqueIdentifier>{40b1e041-4369-4bde-857b-cf6ab6a6c5cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="book.h">
+      <Filter>Domain\Entity\Book</Filter>
+    </ClInclude>
+    <ClInclude Include="bookstore.h">
+      <Filter>Domain\Entity\Bookstore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="book.cpp">
+      <Filter>Domain\Entity\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="bookstore.cpp">
+      <Filter>Domain\Entity\Bookstore</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
